@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "web-resume",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-offline`,
+  ],
+  pathPrefix: `/web-resume`,
 };
